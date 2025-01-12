@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./storybook.app.json" },
+    { "path": "./storybook.node.json" }
+  ]
+}
