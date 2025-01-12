@@ -8,10 +8,10 @@ export interface ButtonProps {
   appName: string;
 }
 
-export const Button = ({ children, className, appName }: ButtonProps) => {
+export const Button = ({ children, appName }: ButtonProps) => {
   return (
     <button
-      className={className}
+      className={"text-black border border-black p-2"}
       onClick={() => alert(`Hello from your ${appName} app!`)}
     >
       {children}
